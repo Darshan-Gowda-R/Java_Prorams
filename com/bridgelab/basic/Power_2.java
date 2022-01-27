@@ -15,6 +15,7 @@ public class Power_2 {
 		}
 		}else
 			System.out.println("the power limit excidis integer limit ");
+		scanner.close();
 	}
 
 }

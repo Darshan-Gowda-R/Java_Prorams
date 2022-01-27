@@ -16,5 +16,6 @@ public class Swap {
 	int snum2=arr[1];
 	System.out.println("the swaped number num1 = "+snum1+"  num2 = "+snum2);
 
+		scanner.close();
 	}
 }

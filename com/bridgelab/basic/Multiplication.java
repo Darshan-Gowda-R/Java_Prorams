@@ -14,6 +14,7 @@ public class Multiplication {
 		int number2=scanner.nextInt();
 		int mul=Utility.multiplication(number1, number2);
 		System.out.print("The product is : "+mul);
+		scanner.close();
 	}
 
 }

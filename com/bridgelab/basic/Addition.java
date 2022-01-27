@@ -1,6 +1,6 @@
 package com.bridgelab.basic;
 
-import com.bridge.utility.*;
+//import com.bridge.utility.*;
 import java.util.Scanner;
 
 import com.bridge.utility.Utility;
@@ -17,6 +17,7 @@ public class Addition {
 		int number2=scanner.nextInt();
 		int sum=Utility.addition(number1, number2);
 		System.out.println("The sum is : "+sum);
+		scanner.close();
 	}
 
 }

@@ -13,6 +13,7 @@ public class Largest_of_3 {
 		num3=sc.nextInt();
 		int max=Utility.max_3_number(num1, num2, num3);
 		System.out.println("The MAX number is : "+max);
+		sc.close();
 	}
 
 }

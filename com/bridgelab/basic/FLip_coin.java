@@ -21,6 +21,7 @@ public class FLip_coin {
 	int per_tails=Utility.percent(tails, times);
 	System.out.println("The Percentage of heads = :  "+per_head);
 	System.out.println("The Percentage of tails = :  "+per_tails);
+	scanner.close();
 	}
 
 }

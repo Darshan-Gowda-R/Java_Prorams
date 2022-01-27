@@ -12,6 +12,7 @@ public class Quetient_Reminder {
 		int quesent=Utility.quesent(num1, num2, 1);
 		int reminder=Utility.quesent(num1, num2, 0);
 		System.out.println("The Quesient : "+quesent+"   The Reminder : "+reminder);
+		scanner.close();
 	}
 
 }

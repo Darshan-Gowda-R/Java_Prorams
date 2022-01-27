@@ -14,6 +14,7 @@ public class Sum_of_num_0 {
 			arr[i]=sc.nextInt();
 		Utility.Sum_of_3(arr, lim);
 			
+		sc.close();
 	}
 
 }

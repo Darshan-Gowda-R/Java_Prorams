@@ -11,7 +11,7 @@ public class Quadratic {
 	int b=sc.nextInt();
 	int c=sc.nextInt();
 	Utility.quadratic(a, b, c);
-
+	sc.close();
 	}
 
 }

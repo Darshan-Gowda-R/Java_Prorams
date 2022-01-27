@@ -18,6 +18,7 @@ public class Array {
 		}
 	Utility.print_arr(row, col, arr);
 	
+	sc.close();
 	}
 
 }

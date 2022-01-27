@@ -15,6 +15,8 @@ public class Vovel_Consonent {
 			System.out.println("Entered character is a ovel : " +check);
 		else
 			System.out.println("Entered character is a consonent :  "+check);
+	
+		scanner.close();
 	}
 
 }

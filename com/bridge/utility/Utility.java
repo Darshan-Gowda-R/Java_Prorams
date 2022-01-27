@@ -147,6 +147,20 @@ public class Utility {
 		System.out.println("Root 2 of x = "+root2);
 	}
 	
+	
+	
+	
+	public static void wind_chill(int a,int b,double t, double v) {
+		double wind=0.0;
+		if(t < 50 && v<120 && v>3) {
+			wind=(0.4275*t - 35.75)*Math.pow(v, 0.16);
+			wind+=35.74;
+			wind+=0.6215*t;
+			System.out.println("the wind chill is :"+wind);
+		}else
+			System.out.println("cannot calculate for this values : ");
+	}
+	
 }
 
 

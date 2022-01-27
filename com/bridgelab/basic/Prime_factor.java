@@ -15,6 +15,6 @@ public class Prime_factor {
 	
 			}
 		}
-	
+	scanner.close();
 	}
 }
