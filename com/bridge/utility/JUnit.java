@@ -60,13 +60,15 @@ public class JUnit {
 		String dig="";
 		while(num>0) {
 			if(num%2==0)
-				dig=dig+"0";
+				dig="0"+dig;
 			else
-				dig=dig+"1";
+				dig="1"+dig;
 			//System.out.println(digit);
 			num=num/2;
 			
 		}
+		return dig;
+		/*
 		//System.out.println(dig);;
 		dig=dig+"1";
 		String digit="";
@@ -79,7 +81,7 @@ public class JUnit {
 			//System.out.println("digit : "+digit);
 		}
 		//System.out.println("final " + digit);
-		return digit;
+		return digit; */
 	}
 	
 	
